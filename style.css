@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    transition: all .2s ease;
+    outline: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.material-symbols-outlined.night {
+    font-size: 36px !important;
+}
+
+.material-symbols-outlined.night:hover {
+    color: black;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    color: #FAC422;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #222730;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 75px;
+    font-weight: 400;
+    color: #141820;
+}
+
+.logo {
+    width: 170px;
+}
+
+.romb {
+    width: 35px;
+    height: 35px;
+}
+
+.fire {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #57B8FF;
+}
+
+.fire img {
+    width: 45px; 
+}
+
+.fire:hover img {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.fire:hover {
+    cursor: pointer;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(to right,black 50%, #57B8FF 50%);
+}
+
+/* Header Navbar */
+
+header .sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 45px;
+}
+
+li a {
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+li a:hover {
+    color: #FAC422;
+}
+
+.btn {
+    padding: 16px 22px;
+    border: 1px solid white;
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+.sect .btn:hover {
+    color: black;
+    border: 1px solid black;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Header Section */
+
+header .sect .content {
+    display: flex;
+    justify-content: center;
+    padding: 125px 0;
+}
+
+header .sect .info {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 700px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.btn:hover {
+    border: 1px solid #57B8FF;
+    background-color: #57B8FF;
+}
+
+.head.img {
+    width: 660px;
+    height: 518px;
+}
+
+/* Main */
+
+/* Section 1 */
+
+.sec1 .info p {
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    color: #999999;
+}
+
+.sec1 {
+    background-color: #FDD04A;
+}
+
+.sec1 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 85px 0;
+}
+
+.sec1 .content p {
+    color: #555555;
+    font-size: 18px;
+    width: 800px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.sec1 .content .sponsers {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    gap: 15px;
+    border-radius: 500px;
+    height: 200px;
+}
+
+.sec1 .content .sponsers .sponser {
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.sec1 .content .sponsers .sponser:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.sec1 .content .sponsers .sponser img {
+    width: 110px;
+}
+
+.sec1 .content .sponsers .sponser:hover img {
+    transform: scale(1.2);
+}
+
+.sec1 .content .sponsers .sponser:nth-child(4) img {
+    width: 150px;
+}
+
+/* Section 2 */
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+    background: url(./battleroyale.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    gap: 60px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 750px;
+    gap: 25px;
+}
+
+.info p {
+    font-size: 19px;
+    color: #ababab;
+    line-height: 27px;
+}
+
+.sec2 .content .futures {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec2 .content .future {
+    width: 650px;
+    padding: 36px 25px;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: flex;
+    gap: 20px;
+}
+
+.sec2 .content .future:hover {
+    animation-name: future;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+
+.sec2 .content .future .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: 15px;
+}
+
+/* Section 3 */
+
+.sec3 {
+    position: relative;
+    height: 74.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-video {
+    width: 100%;
+    height: 74.7vh;
+    z-index: -1;
+    position: absolute;
+}
+
+.sec3 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3 .content .info {
+    z-index: 1;
+}
+
+/* Section 4 */
+
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    height: 74.7vh;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 33.33%;
+}
+
+.option:nth-child(1) {
+    background: url(./bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.option:nth-child(2) {
+    background: url(./bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.option:nth-child(3) {
+    background: url(./bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.option img {
+    width: 150px;
+    transition: all .25s ease;
+}
+
+.option span {
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+
+.option img:hover {
+    width: 170px;
+    cursor: pointer;
+}
+
+/* Section 5 */
+
+.sec5 {
+    background-color: black;
+}
+
+.sec5 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 75px 0;
+}
+
+.sec5 .content .info {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    text-align: start;
+}
+
+.sec5 .content .info .left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec5 .content .btn {
+    transform: scale(1.3);
+}
+
+.sec5 .content .articles {
+    display: flex;
+    gap: 40px;
+}
+
+.sec5 .content .article {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    width: 650px;
+    height: 500px;
+}
+
+.sec5 .content .article img {
+    width: 650px;
+}
+
+.sec5 .content .article .info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.sec5 .content .articley {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec5 .content .articley .article img {
+    width: 300px;
+}
+
+.sec5 .content .articley .article {
+    width: 300px;
+    height: fit-content;
+    margin: 20px 0;
+}
+
+.sec5 .content .articley .article .info h4 {
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer .sect {
+    background: url(./bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer .content {
+    margin: 0 auto;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+footer .info {
+    width: 950px;
+}
+
+footer .info p {
+    color: #555555;
+    line-height: 33px;
+}
+
+footer form {
+    display: flex;
+    width: 900px;
+}
+
+footer form input {
+    width: 100%;
+    border: none;
+    color: #141820;
+    font-size: 25px;
+    padding: 0 25px;
+    border: 1px solid black;
+}
+
+footer form input::placeholder {
+    color: #555555;
+    font-size: 22px;
+}
+
+footer form .btn {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 25px 10px;
+    width: 300px;
+}
+
+
+footer form .btn:hover {
+    cursor: pointer;
+}
